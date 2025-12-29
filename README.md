@@ -41,7 +41,6 @@ A clean, modern **Library Management Member Dashboard** built with **HTML + CSS 
   <img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" alt="GitHub Pages"/>
   <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify"/>
 </p>
----
 
 ## 🚀 Getting Started
 
