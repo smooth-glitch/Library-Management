@@ -20,12 +20,28 @@ A clean, modern **Library Management Member Dashboard** built with **HTML + CSS 
 
 ## 🧱 Tech Stack
 
-- 🧾 HTML5 [file:123]  
-- 🎨 CSS3 (modern gradients, responsive layout, animation classes) [file:125]  
-- 🧠 Vanilla JavaScript (navigation, animations, Axpert open helpers) [file:124]  
-- 📊 Highcharts (availability dashboards) [file:123]  
-- ✉️ EmailJS (support ticket form submission) [file:123]
+<p align="center">
+  <!-- Core -->
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000" alt="JavaScript"/>
 
+  <!-- UI -->
+  <img src="https://img.shields.io/badge/Bootstrap%205-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap 5"/>
+  <img src="https://img.shields.io/badge/Bootstrap%20Icons-000000?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap Icons"/>
+
+  <!-- Charts -->
+  <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Chart.js"/>
+
+  <!-- Storage -->
+  <img src="https://img.shields.io/badge/LocalStorage-334155?style=for-the-badge" alt="LocalStorage"/>
+
+  <!-- Hosting & Tools -->
+  <img src="https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" alt="GitHub Pages"/>
+  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify"/>
+</p>
 ---
 
 ## 🚀 Getting Started
