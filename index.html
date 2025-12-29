@@ -1,0 +1,623 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoreditch Library - Member Dashboard</title>
+
+    <link href="styles.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="../../training114/HTMLPages/Css/styles_1764593736504.css?v=1766126995566">
+
+
+
+    
+	<link type="text/css" rel="stylesheet" href="../../training114/HTMLPages/Css/styles_1765868625216.css?v=1766405903629">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Shoreditch Library & Trust Ltd.</div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Dashboard</a></li>
+                <li><a href="#about-library">About Us</a></li>
+                <li><a href="#modules">Modules</a></li>
+                <li><a href="#contact">Support</a></li>
+            </ul>
+
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav-links">
+            <li><a href="#home">Dashboard</a></li>
+            <li><a href="#about-library">About Us</a></li>
+            <li><a href="#modules">Modules</a></li>
+            <li><a href="#contact">Support</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+            <div class="shape shape-6"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-subtitle">Library Management Member Dashboard</div>
+            <h1>Shoreditch Library</h1>
+            <p class="subtitle">Open today · Quiet morning · Good time to study</p>
+            <a href="#modules" class="cta-button">Open Member Modules</a>
+        </div>
+
+        <div class="scroll-indicator" onclick="document.getElementById('about').scrollIntoView()"></div>
+    </section>
+
+    <section class="portfolio" id="dash-charts">
+        <div class="container">
+            <h2 class="section-title fade-in">Catalog Insights</h2>
+
+            <div class="portfolio-grid" style="grid-template-columns: 1fr 1fr">
+                <div class="portfolio-item animate" style="opacity: 1; transform: none">
+                    <div class="portfolio-content">
+                        <h4>Availability by Category</h4>
+                        <div id="hcAvailabilityByCategory" style="height: 520px"></div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item animate" style="opacity: 1; transform: none">
+                    <div class="portfolio-content">
+                        <h4>Overall Availability</h4>
+                        <div id="hcOverallAvailability" style="height: 520px"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title fade-in">Dashboard Overview</h2>
+
+            <div class="about-content">
+                <div class="about-image slide-in-left">
+                    <img src="https://thumbs.dreamstime.com/b/senior-book-club-online-elderly-people-reading-together-communication-remote-retirement-community-helps-lifestyle-library-307866235.jpg?w=768" alt="Member dashboard overview" loading="lazy">
+                </div>
+
+                <div class="about-text slide-in-right">
+                    <h3>Core details for members</h3>
+                    <p>
+                        Use this Member dashboard to manage daily circulation, catalog
+                        quality, and member service operations.
+                    </p>
+                    <p>
+                        Designed for fast drilldowns, clean navigation, and quick access to
+                        frequently used actions.
+                    </p>
+
+                    <div class="skills">
+                        <span class="skill-tag"><a href="#modules">Catalog</a></span>
+                        <span class="skill-tag"><a href="#modules">Circulation</a></span>
+                        <span class="skill-tag"><a href="#modules">Overdues</a></span>
+                        <span class="skill-tag"><a href="#modules">Reports</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Library Section -->
+    <section id="about-library" class="section library-about">
+        <div class="container">
+            <div class="library-about-grid">
+                <!-- Image -->
+                <div class="library-about-media slide-in-left">
+                    <div class="library-about-image">
+                        <img src="https://thumbs.dreamstime.com/b/media-book-library-concept-e-reading-ebook-to-study-school-learning-online-archive-books-flat-isometric-characters-120280590.jpg?w=768" alt="Quiet reading spaces and curated collections in the library" loading="lazy">
+                    </div>
+                </div>
+
+                <!-- Content -->
+                <div class="library-about-content slide-in-right">
+                    <h2 class="section-title">About Our Library</h2>
+                    <br>
+
+                    <p class="section-subtitle">
+                        A modern community library focused on access, organization, and a
+                        calm place to learn—supported by a clean, audit-friendly workflow
+                        for circulation and catalog operations.
+                    </p>
+
+                    <div class="library-about-cards">
+                        <div class="lab-card fade-in">
+                            <h3>Our mission</h3>
+                            <p>
+                                Make knowledge easy to discover, borrow, and return—through
+                                curated collections, reliable member services, and a smooth
+                                operational backbone.
+                            </p>
+                        </div>
+
+                        <div class="lab-card fade-in">
+                            <h3>What we offer</h3>
+                            <ul class="lab-list">
+                                <li>Membership-based borrowing with clear due dates and renewals.</li>
+                                <li>Reference section support for students and professionals.</li>
+                                <li>Quiet study areas designed for deep work and exam prep.</li>
+                                <li>Operational tracking for overdue follow-ups and service quality.</li>
+                            </ul>
+                        </div>
+
+                        <div class="lab-card fade-in">
+                            <h3>Service standards</h3>
+                            <ul class="lab-list">
+                                <li>Consistent cataloging and shelf organization.</li>
+                                <li>Transparent circulation history and member accountability.</li>
+                                <li>Fast issue resolution and continuous process improvement.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links / Member Modules (renamed id) -->
+    <section id="quicklinks" class="portfolio">
+        <div class="container">
+            <h2 class="section-title fade-in" id="modules">Member Modules</h2>
+
+            <div class="portfolio-grid">
+                <!-- Circulation -> TStruct: bissu -->
+                <div class="portfolio-item" style="position: relative">
+                    <div class="portfolio-image img-circulation" aria-hidden="true">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M4 7h10"></path>
+                            <path d="M4 17h10"></path>
+                            <path d="M14 12H4"></path>
+                            <path d="M16 8l4 4-4 4"></path>
+                        </svg>
+                    </div>
+
+                    <div class="portfolio-content">
+                        <h4>Extension Request</h4>
+                        <p>Extend the due/return date for your book</p>
+                    </div>
+
+                    <a href="javascript:void(0)" data-eot="transid=breq,recordid=0" aria-label="Open Book Issue Master" style="position: absolute; inset: 0; z-index: 5; opacity: 0"></a>
+                </div>
+
+                <!-- Catalog -> IView: b_search -->
+                <div class="portfolio-item" style="position: relative">
+                    <div class="portfolio-image img-catalog" aria-hidden="true">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M6 3h13v18H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"></path>
+                            <path d="M4 19a2 2 0 0 0 2 2h13"></path>
+                        </svg>
+                    </div>
+
+                    <div class="portfolio-content">
+                        <h4>Catalog (Books)</h4>
+                        <p>Click a book row to drill down.</p>
+
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Cover</span>
+                            <span class="tech-tag">Title</span>
+                            <span class="tech-tag">Author</span>
+                            <span class="tech-tag">Category</span>
+                            <span class="tech-tag">Available</span>
+                            <span class="tech-tag">Rating</span>
+                        </div>
+                    </div>
+
+                    <a href="javascript:void(0)" data-ivname="b_search" data-size="modal-xl" aria-label="Open Book Search" style="position: absolute; inset: 0; z-index: 5; opacity: 0"></a>
+                </div>
+
+                <!-- Overdues -> IView: b_over -->
+                <div class="portfolio-item" style="position: relative">
+                    <div class="portfolio-image img-overdues" aria-hidden="true">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 8v5"></path>
+                            <path d="M12 16h.01"></path>
+                            <circle cx="12" cy="12" r="9"></circle>
+                        </svg>
+                    </div>
+
+                    <div class="portfolio-content">
+                        <h4>Overdues & Alerts</h4>
+                        <p>
+                            Track overdue items and follow up faster using operational lists
+                            and reminders.
+                        </p>
+
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Overdue List</span>
+                            <span class="tech-tag">Reminders</span>
+                            <span class="tech-tag">Priority</span>
+                            <span class="tech-tag">Notes</span>
+                        </div>
+                    </div>
+
+                    <a href="javascript:void(0)" data-ivname="ovdmem" data-size="modal-xl" aria-label="Open OverDue Books" style="position: absolute; inset: 0; z-index: 5; opacity: 0"></a>
+                </div>
+
+                <!-- Reports -> IView: b_issued -->
+                <div class="portfolio-item" style="position: relative">
+                    <div class="portfolio-image img-reports" aria-hidden="true">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M4 6h12"></path>
+                            <path d="M4 10h12"></path>
+                            <path d="M4 14h8"></path>
+                            <path d="M16 16l2 2 4-4"></path>
+                        </svg>
+                    </div>
+
+                    <div class="portfolio-content">
+                        <h4>Issued Books</h4>
+                        <p>Books Issued Till Date To You.</p>
+
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Issue Register</span>
+                        </div>
+                    </div>
+
+                    <a href="javascript:void(0)" data-ivname="ibmem" data-size="modal-xl" aria-label="Open Issued Books" style="position: absolute; inset: 0; z-index: 5; opacity: 0"></a>
+                </div>
+
+                <!-- Audit -> IView: a_books -->
+                <div class="portfolio-item" style="position: relative">
+                    <div class="portfolio-image img-audit" aria-hidden="true">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M4 19V5"></path>
+                            <path d="M8 19V9"></path>
+                            <path d="M12 19V7"></path>
+                            <path d="M16 19V11"></path>
+                            <path d="M20 19V6"></path>
+                        </svg>
+                    </div>
+
+                    <div class="portfolio-content">
+                        <h4>Available Books</h4>
+                        <p>Search For Available Books to borrow instantaneously!.</p>
+                    </div>
+
+                    <a href="javascript:void(0)" data-ivname="a_books" data-size="modal-xl" aria-label="Open Book Status" style="position: absolute; inset: 0; z-index: 5; opacity: 0"></a>
+                </div>
+                <div class="portfolio-item" style="position: relative">
+                    <div class="portfolio-image img-mborrow" aria-hidden="true">
+                        <svg viewBox="0 0 16 16" aria-hidden="true">
+                            <path d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022zm2.004.45a7 7 0 0 0-.985-.299l.219-.976q.576.129 1.126.342zm1.37.71a7 7 0 0 0-.439-.27l.493-.87a8 8 0 0 1 .979.654l-.615.789a7 7 0 0 0-.418-.302zm1.834 1.79a7 7 0 0 0-.653-.796l.724-.69q.406.429.747.91zm.744 1.352a7 7 0 0 0-.214-.468l.893-.45a8 8 0 0 1 .45 1.088l-.95.313a7 7 0 0 0-.179-.483m.53 2.507a7 7 0 0 0-.1-1.025l.985-.17q.1.58.116 1.17zm-.131 1.538q.05-.254.081-.51l.993.123a8 8 0 0 1-.23 1.155l-.964-.267q.069-.247.12-.501m-.952 2.379q.276-.436.486-.908l.914.405q-.24.54-.555 1.038zm-.964 1.205q.183-.183.35-.378l.758.653a8 8 0 0 1-.401.432z">
+                            </path>
+                            <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0z"></path>
+                            <path d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5">
+                            </path>
+                        </svg>
+
+                    </div>
+
+                    <div class="portfolio-content">
+                        <h4>Book Borrow History</h4>
+                        <p>Borrow History Till Date.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Fiterable Book Record</span>
+                            <span class="tech-tag">Book Record</span>
+                            <span class="tech-tag">Borrow History</span>
+                        </div>
+                    </div>
+
+                    <a href="javascript:void(0)" data-ivname="memb" data-size="modal-xl" aria-label="Open Book Borrow History" style="position: absolute; inset: 0; z-index: 5; opacity: 0">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section id="contact" class="contact">
+        <div class="contact-floating-shapes">
+            <div class="contact-shape contact-shape-1"></div>
+            <div class="contact-shape contact-shape-2"></div>
+            <div class="contact-shape contact-shape-3"></div>
+            <div class="contact-shape contact-shape-4"></div>
+            <div class="contact-shape contact-shape-5"></div>
+            <div class="contact-shape contact-shape-6"></div>
+        </div>
+
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title fade-in">Support & Requests</h2>
+                <p class="fade-in">
+                    Log issues, request enhancements, or ask for access updates for the
+                    library workspace.
+                </p>
+                <form id="supportForm" class="contact-form fade-in" onsubmit="handleLibrarySupport(event)">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Member Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required="">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="name@example.com" required="">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Book Request / Issue / Renewal" required="">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required=""></textarea>
+                    </div>
+
+                    <!-- Hidden Fields for EmailJS -->
+                    <input type="hidden" name="company_name" value="Shoreditch Library">
+                    <input type="hidden" name="website_url" id="lib_website_url">
+
+                    <button type="submit" id="libSupportBtn" class="submit-btn">Submit Request</button>
+                </form>
+
+                <!-- EmailJS Library -->
+                <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+                <!-- Email Handling Script -->
+                <script>
+                    document.addEventListener('DOMContentLoaded', () => {
+
+                        // 1. Initialize EmailJS
+                        try {
+                            emailjs.init({ publicKey: "bHriZTTZdO57cfJMn" }); // Use your actual Public Key
+                        } catch (e) { console.error("EmailJS init failed:", e); }
+
+                        // 2. Define Global Handler for Library Support
+                        window.handleLibrarySupport = function (event) {
+                            event.preventDefault();
+
+                            const form = document.getElementById("supportForm");
+                            const btn = document.getElementById("libSupportBtn");
+
+                            // Auto-fill Website URL (so link in email opens this app)
+                            const urlField = document.getElementById("lib_website_url");
+                            if (urlField) urlField.value = window.location.href;
+
+                            // UI State: Processing
+                            const originalText = btn.innerText;
+                            btn.innerText = 'Sending Request...';
+                            btn.disabled = true;
+                            btn.style.opacity = "0.7";
+
+                            // Send Email (using your Service ID & Template ID)
+                            // Ensure your EmailJS template uses {{name}}, {{email}}, {{subject}}, {{message}}, {{website_url}}
+                            emailjs.sendForm('service_tig2ppm', 'send_form', form)
+                                .then(() => {
+                                    // Success UI
+                                    btn.innerText = 'Request Sent Successfully!';
+                                    btn.style.backgroundColor = '#10B981'; // Green
+                                    btn.style.borderColor = '#10B981';
+                                    alert("Support request sent! We'll get back to you soon.");
+                                    form.reset();
+
+                                    // Reset Button after 3s
+                                    setTimeout(() => {
+                                        btn.innerText = originalText;
+                                        btn.style.backgroundColor = '';
+                                        btn.style.borderColor = '';
+                                        btn.style.opacity = "1";
+                                        btn.disabled = false;
+                                    }, 3000);
+                                }, (err) => {
+                                    // Error UI
+                                    console.error('Email Error:', err);
+                                    btn.innerText = 'Failed to Send';
+                                    btn.style.backgroundColor = '#EF4444'; // Red
+                                    btn.style.borderColor = '#EF4444';
+                                    alert("Failed to send request. Please check your connection.");
+
+                                    setTimeout(() => {
+                                        btn.innerText = originalText;
+                                        btn.style.backgroundColor = '';
+                                        btn.style.borderColor = '';
+                                        btn.style.opacity = "1";
+                                        btn.disabled = false;
+                                    }, 3000);
+                                });
+                        };
+                    });
+                </script>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2025 Shoreditch Library. Member Dashboard.</p>
+                </div>
+
+                <div class="footer-right">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Use</a>
+                    <a href="#sitemap">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        // Click -> open b_search IView
+        function openBookSearchIView() {
+            const url =
+                typeof buildIViewUrl === "function"
+                    ? buildIViewUrl("b_search")
+                    : "iview.aspx?ivname=b_search";
+
+            if (typeof openPopupUrl === "function") {
+                openPopupUrl(url, "modal-xl");
+            } else {
+                window.location.href = url;
+            }
+        }
+
+        // Minimal data needed for these charts (category + status)
+        const catalogRows = [
+            { category: "Anime", status: "available" },
+            { category: "biography", status: "available" },
+            { category: "Fantasy", status: "available" },
+            { category: "Fantasy", status: "unavailable" },
+            { category: "Fantasy", status: "available" },
+            { category: "Fantasy", status: "available" },
+            { category: "Fantasy", status: "available" },
+            { category: "Fiction", status: "unavailable" },
+            { category: "Fiction", status: "available" },
+            { category: "Mystery/Thriller", status: "available" },
+            { category: "Mystery/Thriller", status: "available" },
+            { category: "Science Fiction", status: "available" },
+            { category: "Science Fiction", status: "unavailable" },
+        ];
+
+        function buildAvailabilityByCategory(rows) {
+            const categories = [...new Set(rows.map((r) => r.category))].sort();
+
+            const available = categories.map(
+                (cat) =>
+                    rows.filter((r) => r.category === cat && r.status === "available")
+                        .length
+            );
+
+            const unavailable = categories.map(
+                (cat) =>
+                    rows.filter((r) => r.category === cat && r.status === "unavailable")
+                        .length
+            );
+
+            return { categories, available, unavailable };
+        }
+
+        function buildOverallAvailability(rows) {
+            const available = rows.filter((r) => r.status === "available").length;
+            const unavailable = rows.filter((r) => r.status === "unavailable").length;
+            return { available, unavailable };
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // Chart 1: Availability by Category (stacked column)
+            const d = buildAvailabilityByCategory(catalogRows);
+
+            const cssVar = (name, fallback) =>
+                getComputedStyle(document.documentElement)
+                    .getPropertyValue(name)
+                    .trim() || fallback;
+
+            const THEME = {
+                primary: cssVar("--primary-color", "#6366f1"),
+                secondary: cssVar("--secondary-color", "#8b5cf6"),
+                pink: cssVar("--accent-pink", "#ec4899"),
+                cyan: cssVar("--accent-cyan", "#06b6d4"),
+                amber: cssVar("--accent-color", "#f59e0b"),
+                text: cssVar("--text-primary", "#0f172a"),
+                muted: cssVar("--text-secondary", "#64748b"),
+            };
+
+            Highcharts.setOptions({
+                colors: [
+                    THEME.primary,
+                    THEME.secondary,
+                    THEME.cyan,
+                    THEME.pink,
+                    THEME.amber,
+                ],
+                chart: {
+                    backgroundColor: "transparent",
+                    style: {
+                        fontFamily: "Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif",
+                    },
+                },
+                title: { style: { color: THEME.text } },
+                xAxis: {
+                    labels: { style: { color: THEME.muted } },
+                    lineColor: "rgba(100,116,139,0.25)",
+                    tickColor: "rgba(100,116,139,0.25)",
+                },
+                yAxis: {
+                    labels: { style: { color: THEME.muted } },
+                    title: { style: { color: THEME.muted } },
+                    gridLineColor: "rgba(100,116,139,0.15)",
+                },
+                legend: {
+                    itemStyle: { color: THEME.text },
+                    itemHoverStyle: { color: THEME.primary },
+                },
+            });
+
+            Highcharts.chart("hcAvailabilityByCategory", {
+                chart: { type: "column" },
+                title: { text: null },
+                credits: { enabled: false },
+                xAxis: { categories: d.categories, title: { text: null } },
+                yAxis: { min: 0, title: { text: "Books" }, allowDecimals: false },
+                tooltip: { shared: true },
+                plotOptions: {
+                    series: {
+                        stacking: "normal",
+                        cursor: "pointer",
+                        point: { events: { click: openBookSearchIView } },
+                    },
+                },
+                series: [
+                    { name: "Available", data: d.available, color: THEME.primary },
+                    { name: "Unavailable", data: d.unavailable, color: THEME.secondary },
+                ],
+            });
+
+            // Chart 2: Overall Availability (donut)
+            const o = buildOverallAvailability(catalogRows);
+
+            Highcharts.chart("hcOverallAvailability", {
+                chart: { type: "pie" },
+                title: { text: null },
+                credits: { enabled: false },
+                tooltip: {
+                    pointFormat: "<b>{point.y}</b> books ({point.percentage:.1f}%)",
+                },
+                plotOptions: {
+                    pie: {
+                        innerSize: "55%",
+                        cursor: "pointer",
+                        dataLabels: { enabled: true, format: "{point.name}: {point.y}" },
+                        point: { events: { click: openBookSearchIView } },
+                    },
+                },
+                series: [
+                    {
+                        name: "Books",
+                        data: [
+                            { name: "Available", y: o.available, color: THEME.primary },
+                            { name: "Unavailable", y: o.unavailable, color: THEME.pink },
+                        ],
+                    },
+                ],
+            });
+        });
+    </script>
+</body></html>
